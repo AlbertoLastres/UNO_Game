@@ -1,0 +1,30 @@
+package model;
+
+public class SolibashoMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Baraja baraja = new Baraja();
+		Menu menu = new Menu();
+		Turno turno = new Turno();
+
+		System.out.println("\tCARTAS BARAJEADAS: \n");
+		baraja.barajearCartas();
+		baraja.imprimirBaraja();//imprime
+		System.out.println("\n");
+		baraja.contarCartasBaraja();
+		System.out.println("\nRepartimos las cartas...\n");
+		baraja.repartirCartas();
+		System.out.println("\tVOLVEMOS A COMPROBAR LA BARAJA: \n");
+		baraja.imprimirBaraja();
+		System.out.println("");
+		baraja.contarCartasBaraja();//Imprime
+		System.out.println("");
+		baraja.contarCartasJugadores();//Imprime
+		System.out.println("\n");
+		if(turno.establecerPrimerTurno() == 1) menu.mostrarMenu();
+		
+
+	}
+
+}

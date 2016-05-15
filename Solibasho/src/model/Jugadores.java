@@ -1,4 +1,4 @@
-/*package model;
+package model;
 
 import model.Baraja;
 import tipoEnum.Color;
@@ -34,5 +34,5 @@ public class Jugadores {
 		
 	
 }
-}*/
+}
 

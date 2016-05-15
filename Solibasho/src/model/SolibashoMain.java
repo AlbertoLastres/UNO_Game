@@ -22,7 +22,8 @@ public class SolibashoMain {
 		System.out.println("");
 		baraja.contarCartasJugadores();//Imprime
 		System.out.println("\n");
-		if(turno.establecerPrimerTurno() == 1) menu.mostrarMenu();
+		//if(turno.establecerPrimerTurno() == 1) menu.mostrarMenu();
+		
 		
 
 	}

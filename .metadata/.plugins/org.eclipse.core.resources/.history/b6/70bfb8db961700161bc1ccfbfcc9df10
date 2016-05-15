@@ -1,0 +1,55 @@
+package model;
+
+public class Partida {
+	
+	Baraja baraja;
+	Carta mesa;
+	Jugadores j1;
+	Jugadores j2;
+	int turno;
+	
+	public Partida(){
+		//Inicializamos la baraja y las manos de los jugadores
+		
+				//Inicializacion de la baraja:
+				//baraja = new Baraja()
+				//Aqui se deberia tener la baraja creada y Barajada con tooodas sus cartas
+				
+				//Inicializamos los jugadores
+				//j1 = new Jugadores(baraja)
+				//j2 = new Jugadores(baraja)
+				// Para esto seria ideal crear una funcion en baraja llamada robar carta que coja una carta de la baraja, la devuelva y la quite de la baraja
+		this.turno = establecerPrimerTurno();
+	}
+
+	public int Jugar(){
+		
+		
+		//aqui ya iria el bucle while (yo usaria un while(True) con breaks
+		
+		//if turno == 1 
+		// turno del jugador 1 con sus entradas y sus historias
+		
+		//if turno == 2
+		// turno del jugador 2 con sus historias
+		
+		//checkeamos si se ha terminado la partida
+		//si se ha terminado salimos del bucle con break y devolvemos return turno
+		return 0;
+	}
+	
+	public int establecerPrimerTurno(){
+		boolean turno = (Math.random() < 0.5);
+		
+		if(turno == true){
+			System.out.print("\n\t\tTURNO DEL JUGADOR.");
+			return 1;
+		}
+		
+		else{
+			System.out.print("\n\t\tTURNO DE LA MÁQUINA.");
+			return 2;
+		}
+	}
+	
+}
