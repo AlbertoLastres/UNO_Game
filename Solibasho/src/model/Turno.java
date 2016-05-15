@@ -8,19 +8,19 @@ public class Turno {
 	Jugador j2 = Jugador.CPU;
 	boolean turno;
 	
-	public int establecerPrimerTurno(){
+	public boolean establecerPrimerTurno(){
 		boolean turno = (Math.random() < 0.5);
 		
 		if(turno == true){
 			System.out.print("\n\t\tTURNO DEL JUGADOR.");
-			return 1;
+			return true;
 		}
 		
 		else{
 			System.out.print("\n\t\tTURNO DE LA MÁQUINA.");
-			return 2;
+			return false;
 		}
 	}
 	
+	}
 	
-}
