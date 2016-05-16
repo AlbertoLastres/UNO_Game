@@ -21,3 +21,75 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY org.eclipse.core.net 1 0 2016-05-15 12:29:49.838
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-05-15 12:57:20.187 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/alberto/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/alberto/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-15 12:57:27.899
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-05-15 16:53:21.695 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/alberto/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/alberto/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.364
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.core.feature_1.8.0.r45x201506110820.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.365
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.core.java.feature_1.8.0.r45x201506110821.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.366
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.core.ui.feature_1.8.0.r45x201506110822.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.366
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.core.xml.feature_1.8.0.r45x201506110823.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.366
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.doc.user.feature_1.8.0.r45x201506110838.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.367
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.layout.group.feature_1.8.0.r45x201506110824.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.367
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.rcp.doc.user.feature_1.8.0.r45x201506110839.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.367
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.rcp.feature_1.8.0.r45x201506110827.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.368
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.rcp.SWT_AWT_support_1.8.0.r45x201506110828.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.368
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.swing.doc.user.feature_1.8.0.r45x201506110839.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.368
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.swing.feature_1.8.0.r45x201506110826.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.369
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.swt.feature_1.8.0.r45x201506110825.jar
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-05-15 16:53:23.369
+!MESSAGE Unable to find feature.xml in directory: /Applications/Eclipse.app/Contents/Eclipse/features/org.eclipse.wb.xwt.feature_1.8.0.r45x201506110829.jar
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-15 16:53:35.286
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2016-05-16 16:33:46.072 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/alberto/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/alberto/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-05-16 16:33:51.262
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.core.net 1 0 2016-05-16 16:33:55.806
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences

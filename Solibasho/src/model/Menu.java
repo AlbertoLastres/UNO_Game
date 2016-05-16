@@ -14,7 +14,7 @@ public class Menu {
 	 
 	  Scanner respuesta = new Scanner(System.in);
 	  System.out.println("TUS CARTAS: ");
-	  baraja.mostrarCartasPropias();
+	  baraja.imprimir();
 	  System.out.println("Opcion 1: Tirar carta");
 	  System.out.println("Opcion 2: Robar carta");
 	  System.out.println("Opción: ");
