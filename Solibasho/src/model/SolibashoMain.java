@@ -3,7 +3,7 @@ package model;
 public class SolibashoMain {
 
 	public static void main(String[] args) {
-		/*
+		
 		// TODO Auto-generated method stub
 		Baraja baraja = new Baraja();
 		Menu menu = new Menu();
@@ -23,12 +23,12 @@ public class SolibashoMain {
 		System.out.println("");
 		baraja.contarCartasJugadores();//Imprime
 		System.out.println("\n");
-		//if(turno.establecerPrimerTurno() == 1) menu.mostrarMenu();
-		*/
-		Partida partida = new Partida();
-		partida.PrintPartida();
-		partida.Jugar();
-		partida.PrintPartida();
+		if(turno.establecerPrimerTurno() == 1) menu.mostrarMenu();
+		
+		//*Partida partida = new Partida();
+		//partida.PrintPartida();
+	//	partida.Jugar();
+//		partida.PrintPartida();
 		
 
 	}
