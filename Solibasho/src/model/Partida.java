@@ -1,11 +1,15 @@
 package model;
 
+import java.awt.Window;
+
 import tipoEnum.Numero;
 
 public class Partida {
 
 	Baraja baraja;
 	Carta mesa;
+	
+	IU interfaz;
 
 	Jugadores j1;
 	Jugadores j2;
@@ -35,16 +39,23 @@ public class Partida {
 		// Para esto seria ideal crear una funcion en baraja llamada robar carta
 		// que coja una carta de la baraja, la devuelva y la quite de la baraja
 		this.turno = establecerPrimerTurno();
+		
+		this.interfaz = new IU();
+		this.interfaz.hacervisible();
+		
+		
 	}
 
 	public int Jugar() {
-
+		
 		// aqui ya iria el bucle while (yo usaria un while(True) con breaks
+		this.PP();
 		while (true) {
 			if (turno == 1) {
 				// Turno del jugador 1
 				boolean found = false;
 				for (Carta c : j1.getMano()) {
+					
 					if (c.jugable(this.mesa)) {
 						this.jugarCarta(j1,c);
 						found = true;
@@ -86,6 +97,7 @@ public class Partida {
 				}
 			}
 			
+			
 			// Chequeamos si ha ganado alguien y si ha ganado devolvemos el
 			// turno,(El jugador que ha ganado)
 			if (j1.manoVacia() || j2.manoVacia()) {
@@ -97,6 +109,14 @@ public class Partida {
 				} else {
 					turno = 1;
 				}
+			}
+			try {
+				this.PP();
+				Thread.sleep(1000);
+				
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
 			}
 		}
 
@@ -114,6 +134,12 @@ public class Partida {
 			System.out.print("\n\t\tTURNO DE LA MÁQUINA.");
 			return 2;
 		}
+	}
+	
+	public void PP(){
+		this.interfaz.draw_carta_mesa(this.mesa);
+		this.interfaz.draw_cartas_bot(this.j2.getMano());
+		this.interfaz.draw_cartas_player(this.j1.getMano());
 	}
 
 	public void PrintPartida() {

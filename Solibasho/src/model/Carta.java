@@ -38,6 +38,10 @@ public class Carta {
          return "Numero: " + this.numero.toString() + "--Color: " + this.color.toString();
     }
 	
+	public String image(){
+		return this.numero.toString() + "-" + this.color.toString() + ".gif";
+	}
+	
 	//	Esto se llama sobre la carta que quieres jugar, pasando como argumento la carta que esta sobre la mesa
 	public boolean jugable(Carta c){
 		return (this.color==c.getColor()||this.numero==c.getNumero()||this.color==Color.NEGRO||c.color == Color.NEGRO);

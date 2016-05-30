@@ -1,3 +1,5 @@
 .metadata
 .recommenders
 .*
+/Solibasho/nbproject/private/
+/Solibasho/build/
