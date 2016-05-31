@@ -1,3 +1,4 @@
+<img src="http://fotos.subefotos.com/99e87a5b355f1f693251f2adfb11f6f8o.png">
 <h1>Bienvenido al Manual de Usuario del UNO VER 0.0.2</h1>
 <h4><a >CONTENIDO DE LA BARAJA</a></h4><br/>
 
